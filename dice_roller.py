@@ -1,11 +1,8 @@
-
 def main():
   import random
   
-  dice_rolls = int(input('How many dice to roll?')
-                   );
-  dice_size = int(input('How sides are of the dice?')
-                  );
+  dice_rolls = int(input('How many dice to roll?'));
+  dice_size = int(input('How sides are of the dice?'));
   dice_sum = 0;
   
   for i in range(0, dice_rolls):
@@ -23,4 +20,5 @@ def main():
   
 if __name__== "__main__":
   main()
+
   
